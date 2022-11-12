@@ -2,13 +2,16 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 
 const Footer = (props) => {
-  const bgStyle = { backgroundColor: "#f5f5f5" };
+  const bgStyle = { backgroundColor: "#FFFFFF" };
 
   return (
-    <footer style={bgStyle} className="mt-auto py-5 text-center ">
+    <footer style={bgStyle} className="mt-auto py-1 text-center ">
       <Container>
         {props.children}
-        <i className="fas fa-code" /> with <i className="fas fa-heart" /> by{" "}
+        <p>
+        </p>
+        <i className="fas fa-code" /> from
+        {" "}
         <a
           rel="noopener"
           href="https://github.com/hashirshoaeb"
@@ -16,14 +19,20 @@ const Footer = (props) => {
         > <span className="badge bg-dark">
             Hashir Shoaib
           </span>
-        </a>{" "}
+        </a>
+        {" "}
         using <i className="fab fa-react" />
-        <p>
-          <small className="text-muted">
-            Project code is open source. Feel free to fork and make your own
-            version.
-          </small>
-        </p>
+        {", "}
+         modified by <a
+          rel="noopener"
+          href="https://github.com/bradwebb101"
+          aria-label="My GitHub"
+        >
+        <span className="badge bg-dark">
+            Brad Webb
+          </span>
+          </a>
+       
       </Container>
     </footer>
   );
