@@ -14,7 +14,7 @@ This project is my personal project page. The front end is built in React and th
 
 ### Front end
 
-- This project is built with React, I forked this project [website](https://github.com/hashirshoaeb/home). Shout out to Hashir Shoaeb for designing and building the project. I am not a front end developer, so I used his design and modified it for my purpose. 
+- This project is built with React, I forked this project [hashir shoaeb's github](https://github.com/hashirshoaeb/home). Shout out to Hashir Shoaeb for designing and building the project. I am not a front end developer, so I used his design and modified it for my purpose. 
 
 ### Back end
 

@@ -20,7 +20,7 @@ export class WebsiteStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: any) {
     super(scope, id, props);
 
-    const { domainName, bucketName } = props;
+    const { domainName, bucketName, websiteLocation } = props;
 
     const cloudfrontOAI = new cloudfront.OriginAccessIdentity(this, 'cloudfront-OAI', {
       comment: `OAI for ${domainName}`,
@@ -42,7 +42,7 @@ export class WebsiteStack extends cdk.Stack {
   );
 
     const deployment = new BucketDeployment(this, "deployStaticWebsite", {
-      sources: [Source.asset("../tomwebsite/website/build/")],
+      sources: [Source.asset(websiteLocation)],
       destinationBucket: siteBucket
   }
   )
