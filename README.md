@@ -1,6 +1,6 @@
 # Personal portfolio Website
 
-This project is my personal project page. The front end is built in React and the Backend a static website with AWS. Infastructure is built with AWS CDK.
+This project is my personal project page. The front end is built in React (Forked project) and the Backend a static website with AWS. Infastructure is built with AWS CDK.
 
 ## Screenshot
 
@@ -18,7 +18,7 @@ This project is my personal project page. The front end is built in React and th
 
 ### Back end
 
-- This site is built as a static website with AWS s3. Distribution is handled by cloudfront. Infastructure built with AWS CDK in Typscript.
+- This site is built as a static website with AWS s3. Distribution is handled by cloudfront. Infastructure built with AWS CDK in Typescript.
   
 ## Infrastructure
 
