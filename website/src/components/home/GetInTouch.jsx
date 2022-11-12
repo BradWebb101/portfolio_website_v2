@@ -1,5 +1,4 @@
 import React from "react"
-import { Container } from 'react-bootstrap'
 import { Jumbotron } from "./migration";
 
 const GetInTouch = ({ heading, message1, message2, message3, email }) => {
